@@ -1,7 +1,7 @@
 
 from selenium import webdriver
 import time, requests
-from keys import username, password
+from keys import username, password #modify to _keys or change file name
 from quotes import quote_picker
 
 driver = webdriver.Chrome('/Users/andrewbith/desktop/chromedriver')
