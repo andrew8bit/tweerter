@@ -27,7 +27,7 @@ def tweet():
     driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[1]/div/div/div/div/div/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div').send_keys(quote_picker())
     driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[4]/div/div/div[2]/div[3]/div/span/span').click()
 
-# this is tweeting our quote 5 times, once every 6
+# this is tweeting our quote 5 times, once every 6 seconds
 count = 0
 while count < 5:
      tweet()
